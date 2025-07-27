@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dartszone - Boards</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="images/Logo(neu).png"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="darts.html">Darts</a></li>
+                <li><a href="zubehoer.html">Zubehör</a></li>
+                <li><a href="boards.html">Boards</a></li>
+                <li><a href="angebote.html">Angebote</a></li>
+                <li><a href="warenkorb.html">Warenkorb</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="page-content">
+            <!-- Filter Sidebar -->
+            <aside class="filter-sidebar">
+              <h3>Filter</h3>
+              <div class="filter">
+            
+                <details>
+                    <summary>Marken</summary>
+                    <label>
+                        <input type="checkbox" name="brand" value="Koto"> Koto
+                    </label>
+                    <label>
+                        <input type="checkbox" name="brand" value="Marke2"> DartXpert
+                    </label>
+                    <label>
+                        <input type="checkbox" name="brand" value="Marke3"> Dartshopper
+                    </label>
+                       
+                </details>
+            
+                <details>
+                    <summary>Kategorien</summary>
+                    <label>
+                        <input type="checkbox" name="category" value="Dartscheiben"> Sisal-Dartscheiben
+                    </label>
+                    <label>
+                        <input type="checkbox" name="category" value="Dartsets"> Dartsets
+                    </label>
+                    <label>
+                        <input type="checkbox" name="category" value="Dartschränke"> E-Dartscheiben
+                    </label>
+                </details>
+            
+                <details>
+                    <summary>Preis</summary>
+                    <div class="filter-price">
+                        <input type="range" id="priceRange" name="price" min="0" max="500" step="1" value="250">
+                        <span id="priceValue">250 €</span> <!-- Preisanzeige -->
+                      </div>
+                </details>
+                <button type="submit">Anwenden</button>
+            </div>
+            
+             <!-- <form>
+                <div class="filter-category">
+                  <label>
+                    <input type="checkbox" name="category" value="Dartscheiben"> Dartscheiben
+                  </label><br>
+                  <label>
+                    <input type="checkbox" name="category" value="Dartsets"> Dartsets
+                  </label><br>
+                  <label>
+                    <input type="checkbox" name="category" value="Dartschränke"> Dartschränke
+                  </label>
+                </div>
+                <div class="filter-price">
+                  <h4>Preis:</h4>
+                  <input type="range" name="price" min="0" max="500">
+                </div>
+                <button type="submit">Anwenden</button>
+              </form>-->
+            </aside>
+        <section class="products">
+            <h2>Boards</h2>
+            <div class="product-grid">
+                
+        <div class="product">
+            <div class="product-info">
+            <img src="images/koto-koto-tournament-set (1).webp" alt="Winmau Blade 6">
+            <h3>Koto King Tournament-Set</h3>
+            <p class="product-price">59,95 € <span class="original-price">64,95</span></p>
+            <button onclick="window.location.href='produkt-board1.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/koto-koto-king-classic-edition-einsteiger-dartboar (1).webp" alt="Boards Produkt 2">
+            <h3>Koto King Classic Dartboard</h3>
+            <p class="product-price">29,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board2.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/koto-koto-king-classic-academy-set.webp" alt="Boards Produkt 3">
+            <h3>Koto King Classic Academy Set</h3>
+            <p class="product-price">34,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board3.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/Boards Produkt 5.jpg" alt="Boards Produkt 4">
+            <h3>DartXpert Classic Dartboard</h3>
+            <p class="product-price">40,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board4.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/Boards Produkt 6.jpg" alt="Boards Produkt 5">
+            <h3>DartXpert Pro Dartboard</h3>
+            <p class="product-price">64,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board5.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/Boards Produkt 7.jpg" alt="Boards Produkt 6">
+            <h3>DartXpert Thunderboard Max </h3>
+            <p class="product-price">60,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board6.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/Boards Produkt 8.jpg" alt="Boards Produkt 7">
+            <h3>DartXpert Einsteiger-Board</h3>
+            <p class="product-price">29,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board7.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/koto-koto-king-pro-profi-dartboard (1).webp" alt="Boards Produkt 8">
+            <h3>Koto King Pro Profi Dartboard</h3>
+            <p class="product-price">39,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board8.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/koto-koto-soft-classic-cabinet-elektronische-darts.webp" alt="Boards Produkt 9">
+            <h3>Koto Soft Classic Cabinet Elektronische Dartscheibe</h3>
+            <p class="product-price">40,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board9.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/koto-koto-exact-590-elektronische-dartscheibe.jpg" alt="Boards Produkt 10">
+            <h3>Koto Exact 590 elektronische Dartscheibe</h3>
+            <p class="product-price">37,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board10.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/koto-koto-royal-580-elektronische-dartscheibe.jpg" alt="Boards Produkt 11">
+            <h3>Koto Royal 580 elektronische Dartscheibe</h3>
+            <p class="product-price">84,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board11.html'">Kaufen</button>
+        </div>
+        </div>
+        <div class="product">
+            <div class="product-info">
+            <img src="images/koto-koto-starter-set.webp" alt="Boards Produkt 12">
+            <h3>Koto Starter-Set</h3>
+            <p class="product-price">34,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-board12.html'">Kaufen</button>
+        </div>
+        </div>
+            </div>
+            <div class="page-content">
+  
+            </section>     
+    </main>
+    <footer>
+        <p>&copy; 2024 Dartszone. Alle Rechte vorbehalten.</p>
+        <li><a href="Kundensupport.html" class="footer-link">Kundensupport</a></li>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktseite - Dartshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="images/Logo(neu).png"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="darts.html">Darts</a></li>
+                <li><a href="zubehoer.html">Zubehör</a></li>
+                <li><a href="boards.html">Boards</a></li>
+                <li><a href="angebote.html">Angebote</a></li>
+                <li><a href="warenkorb.html">Warenkorb</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-page">
+            <!-- Link zurück -->
+            <a href="boards.html" class="back-button">← Zurück</a>
+
+            <!-- Produktanzeige -->
+            <div class="product-details">
+                <!-- Linkes Panel mit Bildern -->
+                <div class="product-images">
+                    <div class="main-image-wrapper">
+                        <img src="images/koto-koto-king-classic-edition-einsteiger-dartboar.webp" alt="Produktbild" id="main-image" class="main-image">
+                    </div>
+                    <div class="thumbnail-gallery">
+                        <img src="images/koto-koto-king-classic-edition-einsteiger-dartboar.webp" alt="Thumbnail 1" class="thumbnail">
+                        <img src="images/koto-koto-king-classic-edition-einsteiger-dartboar (2).webp" alt="Thumbnail 2" class="thumbnail">
+                        <img src="images/koto-koto-king-classic-edition-einsteiger-dartboar (3).webp" alt="Thumbnail 3" class="thumbnail">
+                    </div>
+                </div>
+
+                <!-- Rechtes Panel mit Infos -->
+                <div class="product-info">
+                    <h1>Koto King Classic</h1>
+                    <p class="product-brand">Marke: Koto</p>
+                    <p class="product-price">29,95 € </p>
+                    <p class="availability">✔ Auf Lager</p>
+                    <button class="add-to-cart" onclick="addToCart('Koto King Classic Dartboard', 29.95)">In den Warenkorb</button>
+                    <ul class="product-benefits">
+                        <li>Kostenloser Versand ab 50 €</li>
+                        <li>Lieferzeit: 1-2 Werktage</li>
+                        <li>Kundenzufriedenheit: 4,17/5</li>
+                        <li>100 Tage-Geld-Zurück-Garantie</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Zusätzliche Tabs -->
+            <div class="product-tabs">
+                <button class="tab-button active" onclick="switchTab('info')">Produktinformation</button>
+                <button class="tab-button" onclick="switchTab('reviews')">Bewertungen</button>
+                <button class="tab-button" onclick="switchTab('similar')">Ähnliche Produkte</button>
+            </div>
+
+            <!-- Tab-Inhalte -->
+            <div id="info" class="tab-content active">
+                <p1>Das KOTO King Classic Dartboard bietet die perfekte Kombination aus Benutzerfreundlichkeit für Einsteiger und professioneller Verarbeitung. Es wird mit einem hochwertigen Aufhängesystem geliefert,
+
+                     das eine stabile und einfache Montage ermöglicht.
+
+                    Da die Sisalfasern aus einem natürlichen Material bestehen, können leichte Unregelmäßigkeiten sowie Farbabweichungen auftreten – ein Zeichen für die Echtheit und Qualität des Produkts.</p1>
+            </div>
+            <div id="reviews" class="tab-content">
+                <p>Bewertungen: Dieses Produkt hat eine durchschnittliche Bewertung von 4.17 Sternen aus 18 Bewertungen!</p>
+            </div>
+            <div id="similar" class="tab-content">
+                <p>Ähnliche Produkte: Schau dir unser Sortiment an hochwertigen Darts und Zubehör an.</p>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer>
+        <p>© 2024 Dartszone. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+

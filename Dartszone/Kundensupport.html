@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundensupport - Dartshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="images/Logo(neu).png" alt="Dartshop Logo"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="darts.html">Darts</a></li>
+                <li><a href="zubehoer.html">Zubehör</a></li>
+                <li><a href="boards.html">Boards</a></li>
+                <li><a href="angebote.html">Angebote</a></li>
+                <li><a href="warenkorb.html">Warenkorb</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Kundensupport</h1>
+        <p>Haben Sie Fragen oder ein Anliegen? Wir sind hier, um Ihnen zu helfen!</p>
+        
+        <form id="support-form">
+            <label for="subject">Betreff:</label>
+            <input type="text" id="subject" name="subject" placeholder="Geben Sie den Betreff ein..." required>
+
+            <label for="message">Anliegen:</label>
+            <textarea id="message" name="message" rows="10" placeholder="Beschreiben Sie Ihr Anliegen hier..." required></textarea>
+            
+            <button type="submit">Absenden</button>
+        </form>
+
+        <div id="confirmation" class="hidden">
+            <p>Vielen Dank für Ihre Nachricht! Unser Kundensupport wird sich schnellstmöglich mit Ihnen in Verbindung setzen.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Dartszone. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dartszone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="images/Logo(neu).png"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="darts.html">Darts</a></li>
+                <li><a href="zubehoer.html">Zubehör</a></li>
+                <li><a href="boards.html">Boards</a></li>
+                <li><a href="angebote.html">Angebote</a></li>
+                <li><a href="Warenkorb.html">Warenkorb</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="page-content">
+            <!-- Filter Sidebar -->
+            <aside class="filter-sidebar">
+              <h3>Filter</h3>
+              <div class="filter">
+            
+                <details>
+                    <summary>Marken</summary>
+                    <label>
+                        <input type="checkbox" name="brand" value="Koto"> Koto
+                    </label>
+                    <label>
+                        <input type="checkbox" name="brand" value="Marke2"> DartXpert
+                    </label>
+                    <label>
+                        <input type="checkbox" name="brand" value="Marke3"> Dartshopper
+                    </label>
+                        
+                </details>
+            
+                <details>
+                    <summary>Kategorien</summary>
+                    <label>
+                        <input type="checkbox" name="category" value="Dartscheiben"> Steeldarts
+                    </label>
+                    <label>
+                        <input type="checkbox" name="category" value="Dartsets"> Dartsets
+                    </label>
+                    <label>
+                        <input type="checkbox" name="category" value="Dartschränke"> Softdarts
+                    </label>
+                </details>
+            
+                <details>
+                    <summary>Preis</summary>
+                    <div class="filter-price">
+                        <input type="range" id="priceRange" name="price" min="0" max="500" step="1" value="250">
+                        <span id="priceValue">250 €</span> <!-- Preisanzeige -->
+                      </div>
+                </details>
+                <button type="submit">Anwenden</button>
+            </div>
+            </aside>
+
+        <section class="products">
+            <h2>Darts</h2>
+            <div class="product-grid">
+                
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-koto-sting-black-pvd-90-steeldarts.webp" alt="Darts Produkt 1">
+            <h3>Koto Sting black pvd 90 Steeldarts</h3>
+            <p class="product-price">32,95 € <span class="original-price">39,95</span></p>
+            <button onclick="window.location.href='produkt-dart1.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-koto-king-classic-academy-set.webp" alt="Darts Produkt 2">
+            <h3>Koto-King-Classic-Academy-Set</h3>
+            <p class="product-price">34,95 € <span class="original-price">39,95 €</span></p>
+            <button onclick="window.location.href='produkt-dart2.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-koto-king-front-90-steeldarts.webp" alt="Darts Produkt 3">
+            <h3>Koto King front 90 Steeldarts</h3>
+            <p class="product-price">26,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-dart3.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-koto-kingrex-90-steeldarts.webp" alt="Darts Produkt 4">
+            <h3>Koto Kingrex 90 Steeldarts</h3>
+            <p class="product-price">36,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-dart4.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-2-koto-black-brass-darts-90-pieces-accessorie.webp" alt="Darts Produkt 5">
+            <h3>Koto Black Brass Darts + 90 Pieces Accessories</h3>
+            <p class="product-price">14,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-dart5.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-koto-black-crown-90-steeldarts.webp" alt="Darts Produkt 6">
+            <h3>Koto Black Crown 90 Steeldarts</h3>
+            <p class="product-price">49,95 € <span class="original-price">54,95 €</span></p>
+            <button onclick="window.location.href='produkt-dart6.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-koto-sting-blue-electro-90-steeldarts.webp" alt="Darts Produkt 7">
+            <h3>Koto Sting blue Electro 90</h3>
+            <p class="product-price">37,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-dart7.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-koto-spinner-90-steeldarts.webp" alt="Darts Produkt 8">
+            <h3>Koto Spinner 90 Steeldarts </h3>
+            <p class="product-price">26,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-dart8.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <div class="product">
+            <div class="product-info"> 
+            <img src="images/koto-koto-excalibur-90-steeldarts.webp" alt="Darts Produkt 9">
+            <h3>Koto Excalibur 90 Steeldarts</h3>
+            <p class="product-price">59,95 € <span class="original-price"></span></p>
+            <button onclick="window.location.href='produkt-dart9.html'">Kaufen</button>
+        </div>
+    </div>
+        
+        <!--<div class="product">
+            <img src="images/dart10.jpg" alt="Darts Produkt 10">
+            <h3>Darts Produkt 10</h3>
+            <p>Preis: 100,99 €</p>
+            <button onclick="window.location.href='produkt-dart10.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart11.jpg" alt="Darts Produkt 11">
+            <h3>Darts Produkt 11</h3>
+            <p>Preis: 110,99 €</p>
+            <button onclick="window.location.href='produkt-dart11.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart12.jpg" alt="Darts Produkt 12">
+            <h3>Darts Produkt 12</h3>
+            <p>Preis: 120,99 €</p>
+            <button onclick="window.location.href='produkt-dart12.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart13.jpg" alt="Darts Produkt 13">
+            <h3>Darts Produkt 13</h3>
+            <p>Preis: 130,99 €</p>
+            <button onclick="window.location.href='produkt-dart13.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart14.jpg" alt="Darts Produkt 14">
+            <h3>Darts Produkt 14</h3>
+            <p>Preis: 140,99 €</p>
+            <button onclick="window.location.href='produkt-dart14.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart15.jpg" alt="Darts Produkt 15">
+            <h3>Darts Produkt 15</h3>
+            <p>Preis: 150,99 €</p>
+            <button onclick="window.location.href='produkt-dart15.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart16.jpg" alt="Darts Produkt 16">
+            <h3>Darts Produkt 16</h3>
+            <p>Preis: 160,99 €</p>
+            <button onclick="window.location.href='produkt-dart16.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart17.jpg" alt="Darts Produkt 17">
+            <h3>Darts Produkt 17</h3>
+            <p>Preis: 170,99 €</p>
+            <button onclick="window.location.href='produkt-dart17.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart18.jpg" alt="Darts Produkt 18">
+            <h3>Darts Produkt 18</h3>
+            <p>Preis: 180,99 €</p>
+            <button onclick="window.location.href='produkt-dart18.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart19.jpg" alt="Darts Produkt 19">
+            <h3>Darts Produkt 19</h3>
+            <p>Preis: 190,99 €</p>
+            <button onclick="window.location.href='produkt-dart19.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart20.jpg" alt="Darts Produkt 20">
+            <h3>Darts Produkt 20</h3>
+            <p>Preis: 200,99 €</p>
+            <button onclick="window.location.href='produkt-dart20.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart21.jpg" alt="Darts Produkt 21">
+            <h3>Darts Produkt 21</h3>
+            <p>Preis: 210,99 €</p>
+            <button onclick="window.location.href='produkt-dart21.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart22.jpg" alt="Darts Produkt 22">
+            <h3>Darts Produkt 22</h3>
+            <p>Preis: 220,99 €</p>
+            <button onclick="window.location.href='produkt-dart22.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart23.jpg" alt="Darts Produkt 23">
+            <h3>Darts Produkt 23</h3>
+            <p>Preis: 230,99 €</p>
+            <button onclick="window.location.href='produkt-dart23.html'">Kaufen</button>
+        </div>
+        
+        <div class="product">
+            <img src="images/dart24.jpg" alt="Darts Produkt 24">
+            <h3>Darts Produkt 24</h3>
+            <p>Preis: 240,99 €</p>
+            <button onclick="window.location.href='produkt-dart24.html'">Kaufen</button>
+        </div> -->
+        
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dartszone. Alle Rechte vorbehalten.</p>
+        <li><a href="Kundensupport.html" class="footer-link">Kundensupport</a></li>
+    </footer>
+</body>
+</html>

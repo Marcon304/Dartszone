@@ -27,6 +27,7 @@ Typische Shop-Funktionen wie der Produktfilter sind daher teilweise nur als visu
 - HTML
 - CSS
 - JavaScript
+- Visual Studio Code als Entwicklungsumgebung
 
 ## Projektumfang
 - Eigenständige Planung und Umsetzung als Einzelprojekt
